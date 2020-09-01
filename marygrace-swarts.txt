@@ -2,9 +2,6 @@ forked codepen is here:
 https://codepen.io/marygraceswarts/pen/bGprPzV?editors=1100 
 
 
-<!--
-Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
-
     1. What is Semantic HTML?  
     HTML that has meaning / adds meaning
 
@@ -15,7 +12,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     the part of a tag that tells you where to find something like a link or image, put it after the initial part of the tag (a or img)
 
     4. What is the h1 tag used for? How many times should I use it on a page? 
-    largest header, use it once. 
+    largest header, use it once
 
     5. Name two tags that have required attributes: 
     a (anchor tag) 
@@ -28,16 +25,16 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     a specific name for an element that can only be used once
 
     8. What elements can I add an id to?  
-    p, div, span, h1-h6, (all HTML elements)
+    p, div, span, h1-h6, etc (all HTML elements)
 
     9. How many times can I use the same id on a page? 
     once
 
     10. What is a class? 
-    a tag for a group of elements
+    a tag for designating several elements and grouping them together
 
     11. What elements can I add a class to? 
-    p, div, span, h1-h6,  (all HTML elements)
+    p, div, span, h1-h6, etc (all HTML elements)
 
     12. How many times can I use the same class on a page? 
     the limit does not exist
@@ -49,48 +46,84 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     alt-text, the words that pop up when you hover over an image, and what a screen reader would read
 
     15. How do I reference an id?
-    .id-name
+    #id-name
 
     16. What is the difference between a section and a div
-    section is semantic html, div is not. (I think?) Sections are grouped content - sort of like a heading in an outline. Divs are just buckets you put stuff in
+    section is semantic html, div is not. (I think?) 
+    Sections are grouped content - sort of like a heading in an outline. Divs are just containers you put stuff in. You could have multiple divs in a section.
 
     17. What is CSS used for? 
     Styling a webpage
-    
+
     18. How to we select an element? Example - every h2 on the page
     h2 {
-
     }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     a class can be multiple things - like a <p class="math"> and <div class="history"> 
     and id means just one thing, like <p id="highlander"> there can be only one highlander
+
     20. How do we select classes in CSS?
     .math 
+
     21. How do we select a p element with a single class of “human””?
     p.human
+
     22. What is a parent child selector? When would this be useful? 
-    selecting all of the (things) within (thing), adds more specificity to your CSS
+    selecting the larger group of things, and a group within that thing, and on down. adds more specificity to your CSS
+
     23. How do you select all links within a div with the class of sidebar?
     div.sidebar a {
-
     }
+
     24. What is a pseudo selector?
+
+
     25. What do we use the change the spacing between lines?
     the line-height: attribute
+
     26. What do we use to change the spacing between letters?
     the letter-spacing: attribute
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 
+
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: dotted black 1px;
+    }
+
     29. How do I select everything on the page? 
+    * {
+
+    }
+
     30. How do I write a comment in CSS?
+    /* write your comment here */ 
+
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm -r be super careful, because it does not ask you if you are sure. Could seriously jack up your machine.
+
     34. Why should I use version control? 
+    because that way you can roll back to an earlier version if you break something. Multiple users can also sync versions. 
+
     35. How often should I commit to github?
+    every change, or a set of changes that make sense as one group
+
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin first-last
+
     37. Walk me through Lambda's git flow. 
+    Oof. ok. 
+    First, go to the repo you need
+    Fork it to your own github
+
+
 
 Stretch Questions
 
